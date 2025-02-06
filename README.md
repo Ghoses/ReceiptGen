@@ -37,3 +37,21 @@ Dieses Projekt generiert zufällige Kassenzettel mit authentisch wirkenden Artik
 
 ```bash
 pip install -r requirements.txt
+``` 
+
+---
+
+## 🔧 Konfiguration anpassen (optional)
+
+- **Warenliste:** Passe die Artikelliste und Preise in der Datei warenliste.json an.
+- **Filialdaten & Logo:** In der Datei config.json kannst du alle Details zu den Filialen (Adresse, USt-ID etc.) sowie den Pfad zum Logo-Bild anpassen.
+
+- ## 🔧 Anwendung starten
+
+```bash
+python3 lidl_gui_v32.py
+
+or
+
+python lidl_gui_v32.py
+``` 
