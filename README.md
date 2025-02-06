@@ -1,6 +1,6 @@
-# 🛒 Lidl Kassenzettel Generator 🧾
+# 🛒 ReceiptGen 🧾
 
-**Erstelle realistische Lidl-Kassenzettel als Screenshots – vollautomatisch mit Python und Selenium!**
+**Erstelle realistische Kassenzettel als Screenshots – vollautomatisch mit Python und Selenium!**
 
 Dieses Projekt generiert zufällige Kassenzettel mit authentisch wirkenden Artikeln, Preisen, Mehrwertsteuer-Berechnung, Barcode und weiteren typischen Informationen. Dabei wird sichergestellt, dass der Gesamtbetrag immer innerhalb eines realistischen Rahmens liegt – ab einem Mindestbetrag von ca. 6,90 € bis maximal 23,00 €.
 
