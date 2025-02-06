@@ -1,39 +1,39 @@
 # 🛒 ReceiptGen 🧾
 
-**Erstelle realistische Kassenzettel als Screenshots – vollautomatisch mit Python und Selenium!**
+**Create realistic receipts as screenshots – fully automated with Python and Selenium!**
 
-Dieses Projekt generiert zufällige Kassenzettel mit authentisch wirkenden Artikeln, Preisen, Mehrwertsteuer-Berechnung, Barcode und weiteren typischen Informationen. Dabei wird sichergestellt, dass der Gesamtbetrag immer innerhalb eines realistischen Rahmens liegt – ab einem Mindestbetrag von ca. 6,90 € bis maximal 23,00 €.
+This project generates random receipts with authentically appearing items, prices, VAT calculation, barcode, and other typical details. It ensures that the total amount always falls within a realistic range – from a minimum of approximately €6.90 to a maximum of €23.00.
 
 ## 🚀 Features
 
-- **Realistische Einkaufsbons:**  
-  Zufällige Artikel aus einer konfigurierbaren Warenliste inklusive Preisberechnung.
-- **Mindestbetrag:**  
-  Es werden ausschließlich Kassenzettel mit einem Gesamtbetrag zwischen ca. 6,90 € und 23,00 € generiert.
-- **Screenshot-Speicherung:**  
-  Ausgabe der Kassenzettel als Bilddateien (Screenshot) mittels Selenium & ChromeDriver.
-- **Dynamische Preisberechnung:**  
-  Automatische Berechnung von Mehrwertsteuer, Nettobetrag und Gesamtpreis.
-- **Einstellbarer Zeitraum:**  
-  Möglichkeit, Kassenzettel für einen beliebigen Zeitraum (mehrere Tage) zu generieren.
-- **Einfache GUI:**  
-  Benutzerfreundliche Oberfläche mit Tkinter zur schnellen Bedienung.
-- **White-Label-Fähigkeit:**  
-  Alle relevanten Informationen (Warenliste, Filialdaten, Logo-Pfad) werden über externe JSON-Dateien konfiguriert und sind somit leicht anpassbar.
+- **Realistic receipts:**  
+  Random items from a configurable product list, including price calculation.
+- **Minimum amount:**  
+  Only receipts with a total amount between approximately €6.90 and €23.00 are generated.
+- **Screenshot storage:**  
+  Receipts are output as image files (screenshots) using Selenium & ChromeDriver.
+- **Dynamic price calculation:**  
+  Automatic calculation of VAT, net amount, and total price.
+- **Customizable time period:**  
+  Option to generate receipts for any given period (multiple days).
+- **Simple GUI:**  
+  A user-friendly interface built with Tkinter for quick operation.
+- **White-label capability:**  
+  All relevant information (product list, store data, logo path) is configured via external JSON files, making it easily customizable.
 
 ---
 
-## 🔧 Installation & Einrichtung
+## 🔧 Installation & Setup
 
-### Voraussetzungen
-- **Python 3.x** (getestet mit 3.8+)
-- **Google Chrome** (aktuelle Version)
-- **ChromeDriver** für Selenium  
-  *(Wird automatisch installiert, falls nicht vorhanden – dank `webdriver_manager`.)*
+### Requirements
+- **Python 3.x** (tested with 3.8+)
+- **Google Chrome** (latest version)
+- **ChromeDriver** for Selenium  
+  *(Automatically installed if not present – thanks to `webdriver_manager`.)*
 
-### Python-Abhängigkeiten installieren
+### Install Python Dependencies
 
-Öffne eine Konsole und führe folgenden Befehl aus:
+Open a terminal and run the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -41,17 +41,17 @@ pip install -r requirements.txt
 
 ---
 
-## 🔧 Konfiguration anpassen (optional)
+## 🔧 Adjust Configuration (optional)
 
-- **Warenliste:** Passe die Artikelliste und Preise in der Datei warenliste.json an.
-- **Filialdaten & Logo:** In der Datei config.json kannst du alle Details zu den Filialen (Adresse, USt-ID etc.) sowie den Pfad zum Logo-Bild anpassen.
+- **Product list:** Adjust the item list and prices in the file warenliste.json.
+- **Store data & Logo:** In the file config.json, you can modify all details about the stores (address, VAT ID, etc.) as well as the path to the logo image.
 
-- ## 🔧 Anwendung starten
+- ## 🔧 Start the Application
 
 ```bash
 python3 lidl_gui_v32.py
-
+``` 
 or
-
+```bash
 python lidl_gui_v32.py
 ``` 
