@@ -49,9 +49,13 @@ pip install -r requirements.txt
 - ## 🔧 Start the Application
 
 ```bash
-python3 lidl_gui_v32.py
+python3 receiptgen_gui_v34.py
 ``` 
 or
 ```bash
-python lidl_gui_v32.py
+python receiptgen_gui_v34.py
+``` 
+- ## 🔧 Start the Application
+```bash
+python -m PyInstaller --onefile --noconsole --icon=logo.ico --add-data "stores.json;." --add-data "list.json;." --add-data "logo.png;." receiptgen_gui_v34.py
 ``` 
