@@ -1,3 +1,5 @@
+![Screenshot](images/ReceiptGen.png)
+
 # 🛒 ReceiptGen 🧾
 
 **Create realistic receipts as screenshots – fully automated with Python and Selenium!**
