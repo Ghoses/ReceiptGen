@@ -278,7 +278,7 @@ date_frame = tk.Frame(root)
 date_frame.pack(pady=10)
 
 # Start date
-start_label = tk.Label(date_frame, text="Startdatum (DD.MM.YYYY):")
+start_label = tk.Label(date_frame, text="Start date (DD.MM.YYYY):")
 start_label.grid(row=0, column=0, padx=5)
 start_date_entry = tk.Entry(date_frame)
 start_date_entry.insert(0, current_date)
@@ -287,7 +287,7 @@ tk.Button(date_frame, text="▲", command=lambda: adjust_date(start_date_entry, 
 tk.Button(date_frame, text="▼", command=lambda: adjust_date(start_date_entry, -1)).grid(row=0, column=2)
 
 # End date
-end_label = tk.Label(date_frame, text="Enddatum (DD.MM.YYYY):")
+end_label = tk.Label(date_frame, text="End date (DD.MM.YYYY):")
 end_label.grid(row=1, column=0, padx=5)
 end_date_entry = tk.Entry(date_frame)
 end_date_entry.insert(0, current_date)
