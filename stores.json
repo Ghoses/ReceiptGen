@@ -1,81 +1,30 @@
 {
-    "logo": "lidl.png",
-    "stores": [
+  "logo": "logo.png",
+  "stores": [
       {
-        "name": "Lidl",
-        "address": "Kieler Straße 310\n22525 Hamburg-Stellingen",
-        "ust_id": "DE813810462",
-        "operator": "Lidl Vertriebs-GmbH & Co. KG (Wenzendorf)",
-        "operator_address": "Walther-Blohm-Str. 19-20\n21279 Wenzendorf",
-        "operator_contact": {
-          "phone": "0800 - 43 53 361",
-          "email": "kontakt@lidl.de"
-        },
-        "register_info": {
-          "court": "Registergericht Tostedt",
-          "number": "HRA 2656"
-        }
+          "name": "Lidl",
+          "address": "Kieler Straße 310\n22525 Hamburg-Stellingen",
+          "ust_id": "DE813810462"
       },
       {
-        "name": "Lidl",
-        "address": "Wandsbeker Marktstraße 81\n22041 Hamburg-Wandsbek",
-        "ust_id": "DE813810462",
-        "operator": "Lidl Vertriebs-GmbH & Co. KG (Wenzendorf)",
-        "operator_address": "Walther-Blohm-Str. 19-20\n21279 Wenzendorf",
-        "operator_contact": {
-          "phone": "0800 - 43 53 361",
-          "email": "kontakt@lidl.de"
-        },
-        "register_info": {
-          "court": "Registergericht Tostedt",
-          "number": "HRA 2656"
-        }
+          "name": "Lidl",
+          "address": "Wandsbeker Marktstraße 81\n22041 Hamburg-Wandsbek",
+          "ust_id": "DE813810462"
       },
       {
-        "name": "Lidl",
-        "address": "Steindamm 96\n20099 Hamburg-St. Georg",
-        "ust_id": "DE813810462",
-        "operator": "Lidl Vertriebs-GmbH & Co. KG (Wenzendorf)",
-        "operator_address": "Walther-Blohm-Str. 19-20\n21279 Wenzendorf",
-        "operator_contact": {
-          "phone": "0800 - 43 53 361",
-          "email": "kontakt@lidl.de"
-        },
-        "register_info": {
-          "court": "Registergericht Tostedt",
-          "number": "HRA 2656"
-        }
+          "name": "Lidl",
+          "address": "Steindamm 96\n20099 Hamburg-St. Georg",
+          "ust_id": "DE813810462"
       },
       {
-        "name": "Lidl",
-        "address": "Große Bergstraße 154\n22767 Hamburg-Altona",
-        "ust_id": "DE813810462",
-        "operator": "Lidl Vertriebs-GmbH & Co. KG (Wenzendorf)",
-        "operator_address": "Walther-Blohm-Str. 19-20\n21279 Wenzendorf",
-        "operator_contact": {
-          "phone": "0800 - 43 53 361",
-          "email": "kontakt@lidl.de"
-        },
-        "register_info": {
-          "court": "Registergericht Tostedt",
-          "number": "HRA 2656"
-        }
+          "name": "Lidl",
+          "address": "Große Bergstraße 154\n22767 Hamburg-Altona",
+          "ust_id": "DE813810462"
       },
       {
-        "name": "Lidl",
-        "address": "Friedrich-Ebert-Damm 111\n22047 Hamburg-Wandsbek",
-        "ust_id": "DE814100868",
-        "operator": "Lidl Vertriebs-GmbH & Co. KG (Siek)",
-        "operator_address": "Jacobsrade 56-66\n22962 Siek",
-        "operator_contact": {
-          "phone": "0800 - 43 53 361",
-          "email": "kontakt@lidl.de"
-        },
-        "register_info": {
-          "court": "Registergericht Lübeck",
-          "number": "HRA 6119 HL"
-        }
+          "name": "Lidl",
+          "address": "Friedrich-Ebert-Damm 111\n22047 Hamburg-Wandsbek",
+          "ust_id": "DE814100868"
       }
-    ]
-  }
-  
+  ]
+}
