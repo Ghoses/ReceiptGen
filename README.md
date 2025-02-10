@@ -55,7 +55,7 @@ or
 ```bash
 python receiptgen_gui_v34.py
 ``` 
-- ## 🔧 Start the Application
+- ## 🔧 Compile exe by PyInstaller
 ```bash
 python -m PyInstaller --onefile --noconsole --icon=logo.ico --add-data "stores.json;." --add-data "list.json;." --add-data "logo.png;." receiptgen_gui_v34.py
 ``` 
