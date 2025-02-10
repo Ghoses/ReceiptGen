@@ -61,4 +61,5 @@ python receiptgen_gui_v34.py
 ```bash
 python -m PyInstaller --onefile --noconsole --icon=logo.ico --add-data "stores.json;." --add-data "list.json;." --add-data "logo.png;." receiptgen_gui_v34.py
 ``` 
-![Result](images/01.02.2025.png)
+
+<img src="images/01.02.2025.png" alt="Beispielbild" style="max-width: 366px;">
